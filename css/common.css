@@ -1,0 +1,18 @@
+section {
+  margin-bottom: 200px;
+}
+
+.section_title {
+  font-family: "Lora", sans-serif;
+  margin-bottom: 80px;
+}
+.section_title h2 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.section_title p {
+  font-size: 24px;
+  font-style: italic;
+}
