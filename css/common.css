@@ -16,3 +16,9 @@ section {
   font-size: 24px;
   font-style: italic;
 }
+
+.section_3,
+.section_4,
+.section_5 {
+  padding: 0 240px;
+}
