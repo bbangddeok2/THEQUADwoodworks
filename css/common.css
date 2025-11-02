@@ -22,3 +22,48 @@ section {
 .section_5 {
   padding: 0 240px;
 }
+
+@media screen and (max-width: 1440px) {
+  .section_3,
+  .section_4,
+  .section_5 {
+    padding: 0 120px;
+  }
+  section {
+    margin-bottom: 150px;
+  }
+  .section_title {
+    margin-bottom: 60px;
+  }
+
+  .section_title h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+
+  .section_title p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section_3,
+  .section_4,
+  .section_5 {
+    padding: 0 16px;
+  }
+  section {
+    margin-bottom: 80px;
+  }
+  .section_title {
+    margin-bottom: 30px;
+  }
+
+  .section_title h2 {
+    font-size: 28px;
+    margin-bottom: 5px;
+  }
+
+  .section_title p {
+    font-size: 12px;
+  }
+}
