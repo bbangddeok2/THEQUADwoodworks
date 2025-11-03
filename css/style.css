@@ -66,6 +66,10 @@ header.scrolled .icon_wrap svg {
 @media screen and (max-width: 767px) {
   header {
     padding: 0 16px;
+    height: 60px;
+  }
+  header .logo {
+    width: 130px;
   }
   .menu_wrap {
     display: none;
@@ -107,12 +111,14 @@ header.scrolled .icon_wrap svg {
 }
 .title_wrap_1 h3 {
   font-size: 28px;
-  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .title_wrap_1 h4 {
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 30px;
   margin-top: 40px;
   font-family: "Noto Sans KR", sans-serif;
+  opacity: 0.6;
 }
 .title_wrap_1 h4 span {
   font-family: "Lora", sans-serif;
@@ -199,8 +205,9 @@ header.scrolled .icon_wrap svg {
     margin-top: 10px;
   }
   .title_wrap_1 h4 {
-    line-height: 20px;
-    margin-top: 15p;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
   }
   .con_1 {
     margin-top: 50px;
@@ -224,7 +231,7 @@ header.scrolled .icon_wrap svg {
 }
 
 .txt_wrap_2 {
-  padding-left: 70px;
+  padding-left: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -239,6 +246,7 @@ header.scrolled .icon_wrap svg {
   top: 0;
   right: 0;
   z-index: 5;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
 .txt_wrap_2 p {
@@ -395,6 +403,7 @@ header.scrolled .icon_wrap svg {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 35px;
+  opacity: 0.6;
 }
 
 .btn_3 {
@@ -454,7 +463,7 @@ header.scrolled .icon_wrap svg {
   .txt_wrap_3 p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 22px;
     margin-bottom: 25px;
   }
 
@@ -496,16 +505,17 @@ header.scrolled .icon_wrap svg {
   margin-bottom: 15px;
 }
 .txt_wrap_4 p {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 25px;
   margin-bottom: 30px;
+  opacity: 0.6;
 }
 
 .btn_4 {
   width: 158px;
   height: 44px;
   text-align: center;
-  line-height: 44px;
+  line-height: 40px;
   border: 1px solid rgba(32, 22, 18, 0.4);
   transition: 0.5s;
 }
@@ -569,9 +579,10 @@ header.scrolled .icon_wrap svg {
   display: inline-block;
   font-size: 32px;
   position: relative;
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 0.3s ease;
   font-weight: 700;
+  font-family: "Lora", "Sans-serif";
 }
 
 .txt_wrap_5 a::after {
@@ -623,6 +634,7 @@ footer {
   font-family: "Lora", "sans-serif";
   font-weight: 700;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 .footer_menu {
@@ -630,11 +642,13 @@ footer {
   flex-direction: column;
 }
 .footer_menu a {
-  margin-bottom: 15px;
+  opacity: 0.6;
+  margin-bottom: 22px;
 }
 .footer_menu p {
   letter-spacing: -1px;
-  line-height: 20px;
+  line-height: 25px;
+  opacity: 0.6;
 }
 
 .footer_btn {
@@ -650,6 +664,7 @@ footer {
   width: 100%;
   display: block;
   color: #fff;
+  opacity: 1;
 }
 
 .footer_logo_wrap {
@@ -667,14 +682,15 @@ footer {
 .footer_logo_wrap p {
   letter-spacing: -1px;
   margin-bottom: 20px;
-  line-height: 20px;
+  line-height: 25px;
+  opacity: 0.6;
 }
 .footer_logo_wrap p span {
   font-family: "Lora", "sans-serif";
 }
 .copy {
   font-size: 12px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
@@ -682,7 +698,13 @@ footer {
     padding: 45px 16px;
   }
   .footer_menu_wrap {
-    display: block;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  .footer_menu:nth-child(4) {
+    grid-column: 1 / span 2;
+    grid-row: 3;
   }
   .footer_menu_wrap_title {
     font-size: 14px;
@@ -704,7 +726,10 @@ footer {
   .footer_menu p {
     font-size: 13px;
     letter-spacing: -1px;
-    line-height: 15px;
+    line-height: 20px;
+  }
+  .footer_logo {
+    width: 130px;
   }
   .footer_logo_wrap {
     margin-top: 30px;

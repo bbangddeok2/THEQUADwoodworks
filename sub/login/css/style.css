@@ -57,7 +57,7 @@ header.scrolled .icon_wrap svg {
   padding: 6.82593%;
   background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -68,28 +68,33 @@ header.scrolled .icon_wrap svg {
   font-size: 36px;
   font-weight: 700;
   font-family: "Lora", "Sans-serif";
-  margin-bottom: 15px;
-}
-.login p {
-  font-size: 20px;
   margin-bottom: 50px;
 }
+/* .login p {
+  font-size: 20px;
+  margin-bottom: 50px;
+} */
 
 .login_section input {
   width: 100%;
   padding: 12px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   border: 1px solid #ccc;
-  border-radius: 12px;
+  border-radius: 3px;
   font-size: 16px;
 }
+
+/* input::placeholder{
+  color: #784b37;
+  -> 플레이스홀더만 스타일 지정하는방법
+} */
 
 .btn {
   width: 100%;
   height: 52px;
   background-color: #784b37;
-  border-radius: 12px;
-  margin-top: 10px;
+  border-radius: 3px;
+  margin-top: 30px;
 }
 
 .btn a {
