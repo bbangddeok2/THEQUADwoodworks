@@ -816,6 +816,9 @@ footer {
   .footer_menu p {
     letter-spacing: -2px;
   }
+  .footer_logo_wrap {
+    margin-top: 60px;
+  }
   .footer_logo {
     width: 150px;
     margin-bottom: 20px;
